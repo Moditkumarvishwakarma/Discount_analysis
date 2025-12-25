@@ -61,14 +61,14 @@ Only records where Sales_Channel = Online are used in this analysis.
 Line Plot
 
 .Trend of quantity sold with increasing discount
-
 .Scatter Plot
-
 .Relationship between discount and sales volume with regression line
+
 ---
 Pie Chart
 
 .Average discount distribution across product categories
+
 ---
 
 📈 Key Insights
