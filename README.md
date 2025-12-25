@@ -4,8 +4,9 @@
 This project analyzes the impact of discounts on sales volume in online shopping platforms. Using basic statistical methods and visualizations, the study explores whether higher discounts lead to higher quantities sold.
 
 The project is part of Minor 1 – Statistics and focuses on correlation analysis and graphical representation.
----
+
 🎯 Objectives
+---
 
 Analyze the effect of discount percentage on quantity sold
 
@@ -16,9 +17,9 @@ Compare sales performance across product categories
 Apply correlation analysis to measure relationships
 
 Visualize insights using bar plots, line plots, and scatter plots
----
 
 📂 Dataset
+---
 
 The dataset contains sales-related information with the following key columns:
 
@@ -33,8 +34,9 @@ The dataset contains sales-related information with the following key columns:
 .Sales_Amount (optional)
 
 📌 Note:
-Only records where Sales_Channel = Online are used in this analysis.
 ---
+
+Only records where Sales_Channel = Online are used in this analysis.
 
 🧹 Data Cleaning Steps
 ---
@@ -109,17 +111,16 @@ seaborn – statistical visualizations
    python src/analysis.py
 
 View graphs and correlation output in the console
----
 
 📁 Project Structure
 ---
+
 📦 Online-Shopping-Discount-Impact
  .┣ 📄 sales_data.csv
  .┣ 📄 analysis.ipynb
  .┣ 📄 README.md
  .┣ 📄 Online_Shopping_Discount_Impact_Analysis_Blog.pdf
- ---
----
+ 
 
 📌 Conclusion
 ---
