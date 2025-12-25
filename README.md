@@ -22,15 +22,15 @@ Visualize insights using bar plots, line plots, and scatter plots
 
 The dataset contains sales-related information with the following key columns:
 
-Discount
+.Discount
 
-Quantity_Sold
+.Quantity_Sold
 
-Product_Category
+.Product_Category
 
-Sales_Channel
+.Sales_Channel
 
-Sales_Amount (optional)
+.Sales_Amount (optional)
 
 📌 Note:
 Only records where Sales_Channel = Online are used in this analysis.
@@ -38,59 +38,59 @@ Only records where Sales_Channel = Online are used in this analysis.
 
 🧹 Data Cleaning Steps
 
-Filtered dataset to keep only online sales
+.Filtered dataset to keep only online sales
 
-Removed missing values
+.Removed missing values
 
-Converted discount values from float to integer
+.Converted discount values from float to integer
 
-Grouped repeated discount values using aggregation
+.Grouped repeated discount values using aggregation
 ---
 📊 Analysis Performed
 
-Correlation Analysis
+.Correlation Analysis
 
-Pearson correlation between discount and quantity sold
+.Pearson correlation between discount and quantity sold
 
-Bar Plots
+.Bar Plots
 
-Quantity sold at different discount levels
+.Quantity sold at different discount levels
 
-Category-wise quantity sold by discount
-
+.Category-wise quantity sold by discount
+---
 Line Plot
 
-Trend of quantity sold with increasing discount
+.Trend of quantity sold with increasing discount
 
-Scatter Plot
+.Scatter Plot
 
-Relationship between discount and sales volume with regression line
-
+.Relationship between discount and sales volume with regression line
+---
 Pie Chart
 
-Average discount distribution across product categories
+.Average discount distribution across product categories
 ---
 
 📈 Key Insights
 
-Discounts show a positive impact on sales volume
+.Discounts show a positive impact on sales volume
 
-Higher discounts generally lead to higher quantity sold
+.Higher discounts generally lead to higher quantity sold
 
-Different product categories respond differently to discounts
+.Different product categories respond differently to discounts
 
-Visualizations strongly support the correlation results
+.Visualizations strongly support the correlation results
 ---
 
 🛠️ Technologies Used
 
-Python
+.Python
 
-pandas – data handling
+.pandas – data handling
 
-matplotlib – plotting
+.matplotlib – plotting
 
-seaborn – statistical visualizations
+.seaborn – statistical visualizations
 ---
 
 ## ▶️ How to Run the Project
@@ -118,10 +118,10 @@ View graphs and correlation output in the console
 
 📁 Project Structure
 📦 Online-Shopping-Discount-Impact
- ┣ 📄 sales_data.csv
- ┣ 📄 analysis.ipynb
- ┣ 📄 README.md
- ┣ 📄 Online_Shopping_Discount_Impact_Analysis_Blog.pdf
+ .┣ 📄 sales_data.csv
+ .┣ 📄 analysis.ipynb
+ .┣ 📄 README.md
+ .┣ 📄 Online_Shopping_Discount_Impact_Analysis_Blog.pdf
  ---
 ---
 
@@ -133,6 +133,7 @@ This project demonstrates how basic statistical techniques and visual analysis c
 🎓 Academic Note
 
 This project is created for educational purposes as part of Minor 1 – Statistics.
+
 Author - Modit kumar vishwakarma
 
 
