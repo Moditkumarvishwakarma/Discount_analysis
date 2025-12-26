@@ -7,7 +7,7 @@ import io
 def process_and_analyze(file):
     # 1. Load Dataset
     df = pd.read_csv(file.name)
-    
+
     # 2. Calculation of Selling Price
     df["Discount_Price"] = df['Unit_Price'] * (df['Discount'] / 100)
     df['Selling_Price'] = df['Unit_Price'] - df['Discount_Price']
